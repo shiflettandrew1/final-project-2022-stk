@@ -1,7 +1,33 @@
 a {
     font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem;
+    display: flex;
+}
+
+
+
+nav ul li {
+    margin-left: 2rem;
+
+}
+
+a.brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+section.hero {
+    width: 100%;
+    height: 100%;
+}    
 
 ul {
     list-style: none;
+    padding: none;
+    display: flex;
 }
